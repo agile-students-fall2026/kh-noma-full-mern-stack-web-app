@@ -1,0 +1,40 @@
+.AboutUs-main {
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  .AboutUs-title {
+    color: #282c34;
+    margin-bottom: 20px;
+  }
+  
+  .AboutUs-image {
+    max-width: 200px;
+    height: auto;
+    margin: 15px 0;
+    border: 2px solid #282c34;
+  }
+  
+  .AboutUs-bio {
+    color: #282c34;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .AboutUs-link {
+    color: #61dafb;
+  }
+  
+  .AboutUs-error {
+    color: red;
+    padding: 10px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+  }

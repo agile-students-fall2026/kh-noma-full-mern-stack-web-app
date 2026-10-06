@@ -78,5 +78,16 @@ app.post('/messages/save', async (req, res) => {
   }
 })
 
+app.get('/about-us', (req, res) => {
+  res.json({
+    name: "Nomundari Khenzee",
+    bio: [
+      "Hey! I am a student from NYU Abu Dhabi majoring in Computer Science",
+      "Currently studying away at NYU in New York."
+    ],
+    imageUrl: "https://via.placeholder.com/150" 
+  });
+});
+
 // export the express app we created to make it available to other modules
 module.exports = app // CommonJS export style!
